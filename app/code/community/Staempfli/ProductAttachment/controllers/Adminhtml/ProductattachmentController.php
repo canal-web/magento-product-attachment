@@ -113,6 +113,7 @@ class Staempfli_ProductAttachment_Adminhtml_ProductattachmentController extends 
                     $filesArray[] = array(
                         'id'            => $row->getId(),
                         'filename'      => $row->getFilename(),
+                        'path'          => $row->getPath(),
                         'title'         => ($row->getTitle()) ? $row->getTitle() : '',
                         'description'   => ($row->getDescription()) ? $row->getDescription() : '',
                         'created_at'    => $row->getCreatedAt(),
